@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.CurrencySymbols</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/currencysymbols</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Currency Symbols is a simple tool for getting currency symbols. It returns the currency symbol, name, and more of a currency.</Description>
+    <RepositoryUrl>https://github.com/apiverve/currencysymbols-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>currency symbols; currency symbols api; currency symbols tool; currency symbols software; currency symbols service; currency symbols library; currency symbols sdk; currency symbols code; currency symbols script; currency symbols program; currency symbols application; currency symbols app; currency symbols utility; currency symbols helper; currency symbols helper tool; currency symbols helper software; currency symbols helper service; currency symbols helper library; currency symbols helper sdk; currency symbols helper code; currency symbols helper script; currency symbols helper program; currency symbols helper application; currency symbols helper app; currency symbols helper tool; currency symbols helper utility; currency symbols helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
