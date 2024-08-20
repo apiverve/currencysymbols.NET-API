@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new currencysymbolsQueryOptions {
+var queryOptions = new CurrencySymbolsQueryOptions {
   currency = "USD"
 };
 ```
@@ -249,7 +249,8 @@ if(response.error != null) {
       }
     ],
     "currency": "USD"
-  }
+  },
+  "code": 200
 }
 ```
 
